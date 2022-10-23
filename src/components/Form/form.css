@@ -1,0 +1,39 @@
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 70px;
+}
+
+input {
+    padding: 10px 10px;
+    width: 250px;
+}
+
+input:focus {
+    background-color: #f5fdfd;
+  }
+
+#about {
+    width: 265px;
+    height: 200px;
+    padding: 10px 10px;
+}
+
+#about:focus{
+    background-color: #f5fdfd;
+}
+
+button {
+    width: 250px;
+    height: 50px;
+}
+
+#submit {
+    margin-top: 10px;
+}
+
+div form p {
+    color: red;
+}
